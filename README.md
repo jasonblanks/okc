@@ -1,7 +1,13 @@
-okc
+OKCupid hacker scripts, data, etc
 ===
 
-OKC hacker scripts, data, etc
+Tools for crawling OKCupid for users and their profiles.
+TODO(anyone): Pull users' answers to 'Questions' as well (the multiple choice ones that they use for match percentages)
+TODO(anyone): Clean up FetchProfiles.py file to use the 'requests' library and generally make it sleeker.
+
+--- Fun Links ---
+Because I'm not the only one who has thought of this:
+http://www.wired.com/wiredscience/2014/01/how-to-hack-okcupid/
 
 --- Pulling Data ---
 
