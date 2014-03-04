@@ -13,7 +13,6 @@ Analyzing Data
 * ReadingLevel.py
 Tools for determining the reading level of a chunk of text, as well as some useful statistics about a blob (number of words, sentences, syllables, etc). I have used it to compute reading levels for essay responses, plot them, etc, though I don't have any of that code checked in.
 * cmudict.0.7a.txt - Used by ReadingLevel.py, this is a dictionary mapping words to their numbers of syllables. I pulled it from some CMU page on the interwebs, but I forget where.
-<<<<<<< HEAD
 * 2012-06-30_profiles.csv.zip
 .zip file of .csv file containing profile information for n=59,946 users who
 	* were members on 2012/06/26
@@ -25,8 +24,6 @@ The data from their public profiles were pulled on 2012/06/30.
 R script to read in profiles.20120630.csv and 
 	* produce a mosaicplot cross-classifying gender and sexual orientation
 	* produce a histogram of heights split by gender
-=======
->>>>>>> FETCH_HEAD
 
 Fun Links
 ---
