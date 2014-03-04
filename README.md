@@ -5,8 +5,8 @@ Tools for crawling OKCupid for users and their profiles.
 
 Pulling Data
 ---
-* FindUsers.py - This will find all the usernames (with age and gender) of current OKC users in the target location, dumping out a csv. This was recently updated and should be pretty smooth.
-* FetchProfiles.py - This takes the usernames csv and pulls the profiles one at a time. This is older code and may need some help to be used.
+* FindUsers.py - This will find all the usernames (with age and gender) of current OKC users in the target location, dumping out a csv.
+* FetchProfiles.py - This takes the usernames csv from FindUsers.py and pulls the profiles one at a time, writing to a new csv.
 
 Analyzing Data
 ---
