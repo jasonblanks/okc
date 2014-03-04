@@ -12,10 +12,7 @@ Analyzing Data
 ---
 * ReadingLevel.py
 Tools for determining the reading level of a chunk of text, as well as some useful statistics about a blob (number of words, sentences, syllables, etc). I have used it to compute reading levels for essay responses, plot them, etc, though I don't have any of that code checked in.
-
-Other files
----
-* cmudict.0.7a.txt - This is a dictionary mapping words to their numbers of syllables. I pulled it from some CMU page on the interwebs, but I forget where. It is parsed in reading_level.py, which adds some extra logic to guess the number of syllables for unknown words.
+* cmudict.0.7a.txt - Used by ReadingLevel.py, this is a dictionary mapping words to their numbers of syllables. I pulled it from some CMU page on the interwebs, but I forget where.
 
 Fun Links
 ---
