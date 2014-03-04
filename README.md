@@ -10,10 +10,8 @@ Pulling Data
 
 Analyzing Data
 ---
-* AnalyzeProfiles.py
-Has tools to load profiles from the database, and convert each into a Profile object for easy access. It also cleans up and strips the HTML from the 'essay' fields so they can be read and processed as plain text
 * ReadingLevel.py
-Tools for determining the reading level of a chunk of text, as well as some useful statistics about a blob (number of words, sentences, syllables, etc). Useful function is TextScores(some_text) which makes an object with a number of useful fields.
+Tools for determining the reading level of a chunk of text, as well as some useful statistics about a blob (number of words, sentences, syllables, etc). I have used it to compute reading levels for essay responses, plot them, etc, though I don't have any of that code checked in.
 
 Other files
 ---
@@ -21,10 +19,10 @@ Other files
 
 Fun Links
 ---
-Because I'm not the only one who has thought of this:
-http://www.wired.com/wiredscience/2014/01/how-to-hack-okcupid/
+Because I'm not the only one who has tried this kind of thing:
+* http://www.wired.com/wiredscience/2014/01/how-to-hack-okcupid/
+* http://jonmillward.com/blog/attraction-dating/cupid-on-trial-a-4-month-online-dating-experiment/
 
 TODOs (anyone)
 ---
 * Pull users' answers to 'Questions' as well (the multiple choice ones that they use for match percentages)
-* Clean up FetchProfiles.py file to use the 'requests' library and generally make it sleeker.
